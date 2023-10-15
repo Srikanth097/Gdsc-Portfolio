@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Portfolio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/dasari-srikanth"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/dasari_srikanth_05/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Srikanth097"><i class="fab fa-github"></i></a>
+            </div>
+
+        </nav>
+
+        <div class="wrapper">
+            <div class="me cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm a <span class="text">Front-End Developer</span></h1>
+            </div>
+            <div class="img">
+                <div class="imgbox">
+                    <img src="img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".text",{
+            strings :["front-end Developer.","Competitive Programmer."],
+            loop:true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
